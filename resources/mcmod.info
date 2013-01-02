@@ -1,0 +1,14 @@
+{
+  "modinfoversion": 2,
+  "modlist": [{
+    "modid": "@MOD_ID@",
+    "name": "@MOD_NAME@",
+    "description": "Unload Test",
+    "version": "@MOD_VERSION@",
+    "mcversion": "@MC_VERSION@",
+    "url": "http://nallar.me/minecraft/",
+    "updateUrl": "http://nallar.me/buildservice/job/UnloadTest/lastSuccessfulBuild/artifact/target/",
+    "authors": [ "nallar" ],
+    "credits": "Authored by nallar"
+  }]
+}
