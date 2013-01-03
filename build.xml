@@ -154,20 +154,6 @@
 	<!-- Package the compiled files -->
 	<target name="package" depends="compile">
 
-		<path id="class.path">
-			<fileset dir="${mcp.dir}/lib">
-				<include name="**/*.jar"/>
-			</fileset>
-		</path>
-
-		<java classname="me.nallar.tickthreading.patcher.PatchMain">
-			<classpath>
-				<path refid="class.path"/>
-				<pathelement location="${classes.dir}"/>
-			</classpath>
-			<arg value="obfuscator"/>
-		</java>
-
 		<delete dir="${jar.dir}"/>
 		<mkdir dir="${jar.dir}"/>
 		<jar destfile="${jar.dir}/${ant.project.name}-${mc.version}-${project.version.full}.jar" basedir="${classes.dir}"/>
