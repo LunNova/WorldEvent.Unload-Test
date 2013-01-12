@@ -1,5 +1,5 @@
 <!--suppress AntResolveInspection -->
-<project name="UnloadTest" default="main" xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+<project name="UnloadTest" default="main">
 	<property environment="env"/>
 	<!-- Properties -->
 
